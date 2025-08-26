@@ -1,0 +1,12 @@
+# never commit secrets/keys
+*.pem
+*.key
+*.pub
+*.crt
+.ssh/
+# python/venv noise
+.venv/
+__pycache__/
+# keep inventory created by CI, not in git
+ansible/inventory/*
+!ansible/inventory/README.md

@@ -1,0 +1,3 @@
+---
+compose_dir: /opt/apps
+docker_arch: amd64      # your EC2 is x86_64
